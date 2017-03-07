@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EB62181E-6267-4AC7-8F52-ABFF18BB1FA8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>direct69</RootNamespace>
+    <ProjectName>BlockBreakers</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>C:\Users\sabatarou\Desktop\tin - コピー\direct69;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>C:\Users\sabatarou\Desktop\tin - コピー\direct69;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Ber.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="DirectShowSound.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EndFlag.cpp" />
+    <ClCompile Include="InputPlayer.cpp" />
+    <ClCompile Include="ManageAnimection.cpp" />
+    <ClCompile Include="PenaltyTime.cpp" />
+    <ClCompile Include="LordGraph.cpp" />
+    <ClCompile Include="LordVertex.cpp" />
+    <ClCompile Include="ManegeScene.cpp" />
+    <ClCompile Include="InputDevice.cpp" />
+    <ClCompile Include="InputKey.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GraphicsDevice.cpp" />
+    <ClCompile Include="ManageRender.cpp" />
+    <ClCompile Include="ManageTexturePointer.cpp" />
+    <ClCompile Include="ManegeVertex.cpp" />
+    <ClCompile Include="Reder.cpp" />
+    <ClCompile Include="SceneBattle.cpp" />
+    <ClCompile Include="SceneHowTo.cpp" />
+    <ClCompile Include="SceneTitle.cpp" />
+    <ClCompile Include="Status.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="WindowCreate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Ber.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Battle.h" />
+    <ClInclude Include="DirectShowSound.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EndFlag.h" />
+    <ClInclude Include="Howto.h" />
+    <ClInclude Include="DataTitle.h" />
+    <ClInclude Include="GraphicsDevice.h" />
+    <ClInclude Include="Inputkey.h" />
+    <ClInclude Include="InputDevice.h" />
+    <ClInclude Include="InputPlayer.h" />
+    <ClInclude Include="LordGraph.h" />
+    <ClInclude Include="LordVertex.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="ManageAnimesction.h" />
+    <ClInclude Include="ManageRender.h" />
+    <ClInclude Include="ManageTexturePointer.h" />
+    <ClInclude Include="ManageVertex.h" />
+    <ClInclude Include="PenaltyTime.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="ManageScene.h" />
+    <ClInclude Include="Status.h" />
+    <ClInclude Include="Template.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="WindowCreate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ICON.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

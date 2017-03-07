@@ -1,0 +1,29 @@
+﻿2017/01/20 18:42:35 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\human\Desktop\BlockBreakers 1-20 1102\BlockBreaker\direct69.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\sabatarou\Desktop\tin - コピー\direct69" /ZI /nologo /W3 /WX /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Effect.cpp SceneBattle.cpp
+         SceneBattle.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(345): error C2601: 'MainScene::ItemRender' : ローカル関数の定義が正しくありません。
+                 c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(338): この行は '{' を含んでいますが、これに対応するものがありません。
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(361): error C2601: 'MainScene::StatusRender' : ローカル関数の定義が正しくありません。
+                 c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(338): この行は '{' を含んでいますが、これに対応するものがありません。
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(372): error C2601: 'MainScene::ResultRender' : ローカル関数の定義が正しくありません。
+                 c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(338): この行は '{' を含んでいますが、これに対応するものがありません。
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(411): error C2601: 'MainScene::BlockRender' : ローカル関数の定義が正しくありません。
+                 c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(338): この行は '{' を含んでいますが、これに対応するものがありません。
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(450): error C2601: 'MainScene::ManageColisonPlayerWall' : ローカル関数の定義が正しくありません。
+                 c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(338): この行は '{' を含んでいますが、これに対応するものがありません。
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(497): error C2601: 'MainScene::ManageColisonPlayerBer' : ローカル関数の定義が正しくありません。
+                 c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(338): この行は '{' を含んでいますが、これに対応するものがありません。
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(509): error C2061: 構文エラー : 識別子 'Effect'
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(511): error C2601: 'MainScene::ManageColisonPlayerBlock' : ローカル関数の定義が正しくありません。
+                 c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(338): この行は '{' を含んでいますが、これに対応するものがありません。
+     1>c:\users\human\desktop\blockbreakers 1-20 1102\blockbreaker\scenebattle.cpp(511): fatal error C1903: 直前のエラーを修復できません。コンパイルを中止します。
+         Effect.cpp
+         コードを生成中...
+     1>プロジェクト "C:\Users\human\Desktop\BlockBreakers 1-20 1102\BlockBreaker\direct69.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:01.70

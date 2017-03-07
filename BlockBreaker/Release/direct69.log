@@ -1,0 +1,69 @@
+﻿2017/02/24 11:23:38 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\sabatarou\Desktop\BlockBreakers 1-20 1102\BlockBreaker\direct69.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\sabatarou\Desktop\tin - コピー\direct69" /Zi /nologo /W3 /WX /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ball.cpp Ber.cpp Block.cpp EndFlag.cpp LordGraph.cpp LordVertex.cpp ManageRender.cpp ManegeScene.cpp PenaltyTime.cpp Reder.cpp SceneBattle.cpp SceneHowTo.cpp SceneTitle.cpp Status.cpp Time.cpp Wall.cpp WindowCreate.cpp main.cpp
+         Ball.cpp
+         Ber.cpp
+         Block.cpp
+         EndFlag.cpp
+         LordGraph.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         LordVertex.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         ManageRender.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         ManegeScene.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         PenaltyTime.cpp
+         Reder.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         SceneBattle.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         SceneHowTo.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         SceneTitle.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Status.cpp
+         Time.cpp
+         Wall.cpp
+         WindowCreate.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         main.cpp
+         C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sabatarou\Desktop\BlockBreakers 1-20 1102\Release\BlockBreakers.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sabatarou\Desktop\BlockBreakers 1-20 1102\Release\BlockBreakers.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sabatarou\Desktop\BlockBreakers 1-20 1102\Release\BlockBreakers.lib" /MACHINE:X86 /SAFESEH Release\ICON.res
+         Release\Ball.obj
+         Release\Ber.obj
+         Release\Block.obj
+         Release\DirectShowSound.obj
+         Release\Effect.obj
+         Release\EndFlag.obj
+         Release\InputPlayer.obj
+         Release\ManageAnimection.obj
+         Release\PenaltyTime.obj
+         Release\LordGraph.obj
+         Release\LordVertex.obj
+         Release\ManegeScene.obj
+         Release\InputDevice.obj
+         Release\InputKey.obj
+         Release\main.obj
+         Release\GraphicsDevice.obj
+         Release\ManageRender.obj
+         Release\ManageTexturePointer.obj
+         Release\ManegeVertex.obj
+         Release\Reder.obj
+         Release\SceneBattle.obj
+         Release\SceneHowTo.obj
+         Release\SceneTitle.obj
+         Release\Status.obj
+         Release\Time.obj
+         Release\Wall.obj
+         Release\WindowCreate.obj
+         コード生成しています。
+         コード生成が終了しました。
+         direct69.vcxproj -> C:\Users\sabatarou\Desktop\BlockBreakers 1-20 1102\Release\BlockBreakers.exe
+     1>プロジェクト "C:\Users\sabatarou\Desktop\BlockBreakers 1-20 1102\BlockBreaker\direct69.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:49.50
